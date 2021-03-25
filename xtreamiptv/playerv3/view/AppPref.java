@@ -21,6 +21,7 @@ public class AppPref {
     }
 
     public int getResizeMode() {
+	//khcho 2021-03-25 good
         return this.preferences.getInt("resize_mode", 0);
     }
 
